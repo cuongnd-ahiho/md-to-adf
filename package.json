@@ -5,7 +5,11 @@
   "main": "lib/index.js",
   "types": "lib",
   "scripts": {
-    "build": "tsc -p ."
+    "build": "tsc -p .",
+    "format": "prettier --check 'src/**/*.ts'",
+    "format:write": "prettier --write 'src/**/*.ts'",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix"
   },
   "repository": {
     "type": "git",
