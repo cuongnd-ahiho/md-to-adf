@@ -1,20 +1,37 @@
 {
   "name": "md-to-adf",
   "version": "1.0.0",
-  "description": "",
+  "description": "Translate Markdown (Github) into Atlassian Document Format (ADF)",
   "main": "lib/index.js",
   "types": "lib",
+  "scripts": {
+    "build": "tsc -p ."
+  },
   "repository": {
     "type": "git",
     "url": "git@cuong-github.com:cuongnd-ahiho/md-to-adf.git"
   },
-  "keywords": [],
-  "author": "cuongnd <cuongnd@ahiho.com>",
-  "license": "MIT",
-  "scripts": {
-    "build": "tsc -p ."
-  },
+  "keywords": [
+    "markdown",
+    "atlassian",
+    "jira",
+    "confluence",
+    "adf"
+  ],
   "devDependencies": {
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "@semantic-release/npm": "^9.0.2",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.3",
     "typescript": "^4.9.4"
-  }
+  },
+  "author": "cuongnd <cuongnd@ahiho.com>",
+  "license": "MIT"
 }
