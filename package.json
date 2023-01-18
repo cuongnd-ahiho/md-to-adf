@@ -1,0 +1,20 @@
+{
+  "name": "md-to-adf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "types": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git@cuong-github.com:cuongnd-ahiho/md-to-adf.git"
+  },
+  "keywords": [],
+  "author": "cuongnd <cuongnd@ahiho.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p ."
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
